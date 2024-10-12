@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tigers OCR Team</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff4d00;
+            text-align: center;
+            padding: 20px;
+        }
+        header img {
+            width: 200px;
+            height: auto;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #ff4d00;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #fff;
+        }
+        section {
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #ff4d00;
+        }
+        .recruitment-form {
+            background-color: #222;
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            margin: 0 auto;
+        }
+        .recruitment-form input, .recruitment-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+        }
+        .recruitment-form input[type="submit"] {
+            background-color: #ff4d00;
+            color: #fff;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #333;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="logo.png" alt="Tigers OCR Team Logo">
+        <h1>Bienvenidos a Tigers OCR Team</h1>
+        <p>¡Supera tus límites con los mejores!</p>
+    </header>
+
+    <nav>
+        <a href="#about">Sobre Nosotros</a>
+        <a href="#races">Calendario de Carreras</a>
+        <a href="#members">Miembros del Equipo</a>
+        <a href="#contact">Contacto</a>
+        <a href="#recruit">Únete a Nosotros</a>
+    </nav>
+
+    <section id="about">
+        <h2>Sobre Nosotros</h2>
+        <p>Somos los Tigers, un equipo de carreras OCR comprometido con el rendimiento y la superación personal. Competimos en las mejores carreras de obstáculos, y buscamos siempre llevar nuestro cuerpo y mente al límite.</p>
+    </section>
+
+    <section id="races">
+        <h2>Calendario de Carreras</h2>
+        <p>Aquí puedes ver nuestro calendario de carreras para la próxima temporada.</p>
+        <!-- Puedes añadir una tabla con fechas de las carreras -->
+    </section>
+
+    <section id="members">
+        <h2>Miembros del Equipo</h2>
+        <p>Conoce a los miembros del equipo que hacen posible nuestro éxito.</p>
+        <!-- Añadir lista de miembros o fotos -->
+    </section>
+
+    <section id="recruit">
+        <h2>Únete a Nosotros</h2>
+        <div class="recruitment-form">
+            <form action="#" method="post">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Cuéntanos sobre ti:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Tigers OCR Team. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
